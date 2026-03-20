@@ -33,3 +33,11 @@ insight-hub/
 ├── backend/    # Python API + LangChain logic
 └── frontend/   # React dashboard UI
 ```
+
+## How It Works
+
+1. User enters a query (e.g. "Analyse Tesla stock sentiment")
+2. Platform fetches real-time data from news, social media & financial APIs
+3. LangChain processes and chunks the data
+4. LLM generates structured insights — risk analysis, sentiment trends, comparisons
+5. Results displayed on an interactive React dashboard with continuous alerts
