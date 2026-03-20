@@ -28,3 +28,8 @@ npm start
 ```
 
 ## Project Structure
+```
+insight-hub/
+├── backend/    # Python API + LangChain logic
+└── frontend/   # React dashboard UI
+```
